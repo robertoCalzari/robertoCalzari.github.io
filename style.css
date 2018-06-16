@@ -15,7 +15,7 @@ h1 {
   top: 30%;
   left: 50%;
   margin: auto;
-  display: inline-block;
+  display: inline;
 }
 
 .description {
