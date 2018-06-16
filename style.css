@@ -1,6 +1,7 @@
 h1 {
   color:white;
   font-family: helvetica;
+  position: absolute;
   left: 50%;
   font-size: 30px;
   Background-color:#6495ED;
@@ -11,9 +12,10 @@ h1 {
 .description {
   font-family: helvetica;
   font-weight: lighter;
-  color: White;
+  color: Black;
   Left: 50%;
   background-color: #f8f8ff;
   padding: 10px 10px 10px 5px;
   max-width: 250px;
+
 }
