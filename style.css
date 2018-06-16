@@ -3,3 +3,9 @@ h1 {
   font-family: helvetica;
   left: 50%;
 }
+
+p {
+  font-family: helvetica;
+  font-weight: lighter;
+  color: black;
+}
