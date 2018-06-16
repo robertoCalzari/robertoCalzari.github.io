@@ -1,15 +1,17 @@
 h1 {
-  color:blue;
+  color:White;
   font-family: helvetica;
   left: 50%;
+  font-size: 30px;
+  Background-color:#6495ED;
 }
 
 .description {
   font-family: helvetica;
   font-weight: lighter;
-  color: black;
+  color: White;
   Left: 50%;
-  background-color: #F8F8FF;
+  background-color: #C0C0C0;
   padding: 10px 5px 10px 5px;
-  max-width: 100px; 
+  max-width: 500px;
 }
