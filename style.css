@@ -4,8 +4,9 @@ h1 {
   left: 50%;
 }
 
-p {
+.description {
   font-family: helvetica;
   font-weight: lighter;
   color: black;
+  Left: 50%;
 }
