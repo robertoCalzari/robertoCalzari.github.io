@@ -1,5 +1,5 @@
 h1 {
-  color:black;
+  color:white;
   font-family: helvetica;
   left: 50%;
   font-size: 30px;
@@ -13,7 +13,7 @@ h1 {
   font-weight: lighter;
   color: White;
   Left: 50%;
-  background-color: #C0C0C0;
+  background-color: #f8f8ff;
   padding: 10px 10px 10px 5px;
   max-width: 250px;
 }
