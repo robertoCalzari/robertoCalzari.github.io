@@ -22,15 +22,6 @@ h1 {
   font-weight: lighter;
 }
 
-.description {
-  font-family: helvetica;
-  font-weight: lighter;
-  color: Black;
-  Left: 50%;
-  background-color: #f8f8ff;
-  padding: 10px 10px 10px 5px;
-  max-width: 250px;
-}
 .btn-primary {
 	color: #6495ED;
 	background-color: #f8f8ff;
