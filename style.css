@@ -18,6 +18,8 @@ h1 {
   margin: auto;
   display: inline-block;
   text-align: left;
+  font-family: helvetica;
+  font-weight: lighter;
 }
 
 .description {
