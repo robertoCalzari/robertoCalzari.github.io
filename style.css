@@ -30,13 +30,13 @@ h1 {
   max-width: 250px;
 }
 .btn-primary {
-	color: #fff;
+	color: #6495ED;
 	background-color: #f8f8ff;
 	border-color: #6495ED;
 	margin-bottom: 5px;
 }
 .btn-primary:hover {
-	color: #6495ED;
-	background-color: white;
+	color: #f8f8ff;
+	background-color: #6495ED;
 	border-color: white;
 }
