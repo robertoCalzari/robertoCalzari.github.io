@@ -28,5 +28,7 @@ h1 {
   background-color: #f8f8ff;
   padding: 10px 10px 10px 5px;
   max-width: 250px;
-
+}
+button {
+  border-radius: 0;
 }
