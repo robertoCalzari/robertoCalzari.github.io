@@ -31,12 +31,12 @@ h1 {
 }
 .btn-primary {
 	color: #fff;
-	background-color: transparent;
-	border-color: white;
+	background-color: #f8f8ff;
+	border-color: #6495ED;
 	margin-bottom: 5px;
 }
 .btn-primary:hover {
-	color: #27A967;
+	color: #6495ED;
 	background-color: white;
 	border-color: white;
 }
