@@ -1,5 +1,4 @@
 h1 {
-  z-index: 0;
   color:white;
   font-family: 'Dancing Script', cursive;
   text-align: center;
@@ -9,7 +8,6 @@ h1 {
 }
 
 img {
-  z-index: 0;
   display: block;
   width: 175px;
   margin-left: auto;
