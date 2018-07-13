@@ -7,8 +7,8 @@ h1 {
 }
 
 img {
-  height: 100px;
-  width: 100px;
+  width: 50%;
+  border-radius: 50%;
 }
 
 #menu {
