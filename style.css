@@ -38,7 +38,7 @@ body {
 #sheet{
   z-index: 0;
   background-color: white;
-  position: fixed;
+  position: absolute;
   margin-left: auto;
   height: 1000px;
   width: 500px;
