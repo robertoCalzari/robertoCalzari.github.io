@@ -23,6 +23,7 @@ body {
 
 #grad{
   z-index: 0;
+  float: none;
   position: absolute;
   background: linear-gradient( to bottom right, #40E0D0, #6495ED);
   height: 100vh;
