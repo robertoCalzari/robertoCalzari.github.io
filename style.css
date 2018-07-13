@@ -11,7 +11,7 @@ img {
   width: 175px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  vertical-align: top;
   border-radius: 50%;
 }
 
