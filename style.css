@@ -21,17 +21,11 @@ img {
 
 body {
   z-index: -1;
-  width: 100%;
-  height: 100vh;
-  margin: 0px;
-}
-
-#grad{
-  position: static;
   background: linear-gradient( to bottom right, #40E0D0, #6495ED);
   height: 100vh;
   width: 100%;
   cursor:url('http://s13.postimg.org/nziz57hab/cursor.png'), auto;
+  margin: 0px;
 }
 
 #sheet{
