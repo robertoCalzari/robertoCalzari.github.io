@@ -19,6 +19,11 @@ img {
     filter: grayscale(100%);
 }
 
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+}
 
 #grad{
   z-index: -1;
@@ -30,7 +35,7 @@ img {
 }
 
 #sheet{
-  float: left;
+  z-index: -2;
   display: block;
   position: absolute;
   margin-left: auto;
