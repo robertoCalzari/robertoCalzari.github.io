@@ -26,7 +26,7 @@ body {
 }
 
 #grad{
-  float: none;
+  z-index: -1;
   position: static;
   background: linear-gradient( to bottom right, #40E0D0, #6495ED);
   height: 100vh;
@@ -35,6 +35,7 @@ body {
 }
 
 #sheet{
+  z-index: -2;
   display: block;
   position: absolute;
   margin-left: auto;
