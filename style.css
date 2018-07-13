@@ -2,8 +2,8 @@ h1 {
   color:#6495ED;
   font-family: 'Dancing Script', cursive;
   text-align: center;
-  top: 20%;
-  font-size: 30px;
+  vertical-align: top;
+  font-size: 50px;
 }
 
 #menu {
