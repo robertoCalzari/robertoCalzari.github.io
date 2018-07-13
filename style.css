@@ -1,9 +1,9 @@
 h1 {
   z-index: 0;
-  color:black;
+  color:white;
   font-family: 'Dancing Script', cursive;
   text-align: center;
-  vertical-align: baseline;
+  vertical-align: center;
   font-size: 50px;
 }
 
