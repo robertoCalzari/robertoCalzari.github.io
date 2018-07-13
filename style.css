@@ -36,6 +36,7 @@ body {
 }
 
 #sheet{
+  z-index: 0;
   width: 500px;
   height: 1000px;
   background-color: white;
