@@ -31,9 +31,9 @@ body {
 #sheet{
   z-index: -3;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  vertical-align: top;
+  position: absolute;
+  top: 20%;
+  left:50%;
   width: 800px;
   height: 500px;
   background-color: white;
