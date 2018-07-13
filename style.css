@@ -15,6 +15,12 @@ img {
   border-radius: 50%;
 }
 
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+}
+
 #grad{
   background: linear-gradient( to bottom right, #40E0D0, #6495ED);
   height: 100%;
