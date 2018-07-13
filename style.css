@@ -32,8 +32,7 @@ body {
   z-index: -3;
   display: block;
   position: fixed;
-  margin-left: auto;
-  margin-right: auto;
+  top: 50px;
   vertical-align: top;
   width: 800px;
   height: 500px;
