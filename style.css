@@ -31,8 +31,8 @@ body {
 #sheet{
   z-index: -3;
   display: block;
-  position: fixed;
-  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
   vertical-align: top;
   width: 800px;
   height: 500px;
