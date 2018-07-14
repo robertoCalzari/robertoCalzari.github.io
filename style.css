@@ -13,6 +13,12 @@ h1 {
   font-family: 'Dancing Script', cursive;
   line-height: 30px;
   font-size: 20px;
+  text-decoration: none;
+}
+
+#contatti:hover{
+  color: green;
+  text-decoration: none;
 }
 
 #profilo {
