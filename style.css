@@ -31,8 +31,13 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+
+#profilo:hover {
+  -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
 }
 
 #sheet{
@@ -48,7 +53,7 @@ h1 {
   padding-right: 200px;
   width: 600px;
   height: 330px;
-  background-color: blue;
+  background-color: white;
   text-align: justify;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
