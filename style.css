@@ -1,5 +1,5 @@
 h1 {
-  z-index: 3;
+  z-index: 5;
   color:white;
   font-family: 'Dancing Script', cursive;
   text-align: center;
@@ -8,7 +8,7 @@ h1 {
 }
 
 #contatti{
-  z-index: 3;
+  z-index: 4;
   color: white;
   font-family: 'Dancing Script', cursive;
   position: absolute;
@@ -23,7 +23,7 @@ h1 {
 }
 
 #profilo {
-  z-index: 2;
+  z-index: 3;
   display: block;
   width: 130px;
   margin-top: 35px;
@@ -41,7 +41,7 @@ h1 {
 }
 
 #Contatti_Sheet{
-  z-index: 1;
+  z-index: 2;
   display: block;
   margin-left: auto;
   margin-right: auto;
