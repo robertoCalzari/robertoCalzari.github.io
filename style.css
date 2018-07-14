@@ -42,7 +42,7 @@ h1 {
 
 #Contatti_Sheet{
   z-index: 2;
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   margin-top: -50px;
@@ -68,7 +68,7 @@ h1 {
 
 #Info_Sheet{
   z-index: 1;
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   margin-top: -65px;
