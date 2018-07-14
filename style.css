@@ -3,7 +3,7 @@ h1 {
   color:white;
   font-family: 'Dancing Script', cursive;
   text-align: center;
-  line-height: 30px;
+  line-height: -px;
   font-size: 75px;
 }
 
@@ -31,7 +31,6 @@ h1 {
 #sheet{
   z-index: 1;
   display: block;
-  top: 150px;
   margin-left: auto;
   margin-right: auto;
   margin-top: -65px;
