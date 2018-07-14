@@ -85,6 +85,10 @@ h1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.contattiColore{
+  transform: background: linear-gradient( to bottom right, #FFD700, #DAA520);
+}
+
 body {
   z-index: 0;
   background: linear-gradient( to bottom right, #40E0D0, #6495ED);
