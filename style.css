@@ -45,7 +45,7 @@ h1 {
   padding-left: 250px;
   padding-top: 85px;
   padding-right: 250px;
-  padding-bottom: -85px;
+  padding-bottom: 0px;
   width: 1000px;
   height: 500px;
   background-color: white;
