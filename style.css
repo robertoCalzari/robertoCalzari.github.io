@@ -13,7 +13,7 @@ h1 {
   width: 100px;
   margin-left: auto;
   margin-right: auto;
-  top: 100px;
+  top: 50px;
   border-radius: 50%;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
