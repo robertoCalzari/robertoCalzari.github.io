@@ -15,10 +15,11 @@ h1 {
   left: 40%; top: 15%;
   font-size: 35px;
   text-decoration: none;
+  cursor: pointer
 }
-
+/*#DAA520*/
 #contatti:hover{
-  color: green;
+  color: #FFD700;
   text-decoration: none;
 }
 
