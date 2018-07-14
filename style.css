@@ -69,3 +69,7 @@ body {
   margin: 0px;
   overflow: hidden;
 }
+
+body:hover{
+  background: linear-gradient( to bottom right, #40E1D0, #6495ED);
+}
