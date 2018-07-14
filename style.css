@@ -9,7 +9,7 @@ h1 {
 
 #contatti{
   z-index: 3;
-  display: inline-block;
+  display: block;
   color: white;
   font-family: 'Dancing Script', cursive;
 position: absolute;
