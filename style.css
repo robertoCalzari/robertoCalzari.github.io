@@ -104,7 +104,7 @@ h1 {
 
 #grad {
   z-index: 0;
-  background:#6495ED;
+  background-color:#6495ED;
   height: 100vh;
   width: 100%;
   cursor:url('http://s13.postimg.org/nziz57hab/cursor.png'), auto;
