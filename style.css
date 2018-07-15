@@ -136,6 +136,11 @@ h1 {
   transition: 1s;
 }
 
+#Info_Sheet.moveUp{
+  top: 185px;
+  transition: 1s;
+}
+
 #Portfolio_Sheet{
   z-index: 3;
   display: inline-block;
