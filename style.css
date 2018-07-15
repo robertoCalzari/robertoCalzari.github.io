@@ -122,7 +122,7 @@ h1 {
 }
 
 #Portfolio_Sheet.moveUp{
-  margin-top: -500px;
+  margin-top: -65px;
   transition: 1s;
   transition-delay: 1s;
 }
