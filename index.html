@@ -55,14 +55,14 @@ function contattiUp() {
   $("#grad").addClass("contattiGrad");
   $("#grad").removeClass("portfolioGrad");
   $("#Contatti_Sheet").addClass("moveUp");
-  $("#Info_Sheet").addClass("moveDown");
+  $("#Info_Sheet").toggleClass("moveDown");
   $("#Portfolio_Sheet").removeClass("moveUp");
 }
 
 function portfolioUp() {
   $("#grad").addClass("portfolioGrad");
   $("#Portfolio_Sheet").addClass("moveUp");
-  $("#Info_Sheet").addClass("moveDown");
+  $("#Info_Sheet").toggleClass("moveDown");
   $("#Contatti_Sheet").removeClass("moveUp");
 }
 
