@@ -78,13 +78,15 @@ function ClickContatti() {
     a = 1;
     ContattiUp();
     PortfolioDown()
+  }else if( a == 1)
+  {
+    a = 2;
+    ContattiDown();
+    PortfolioUp();
   }
 }
 
-
-
 $("#contatti").on("click", ClickContatti)
-$("#portfolio").on("click", ClickPortfolio)
 
  </script>
 </head>
