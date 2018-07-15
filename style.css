@@ -76,11 +76,9 @@ h1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.moveRight{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -65px;
-  margin-bottom: none;
+#Contatti_Sheet.moveUp{
+  margin-top: -300px;
+  transition: 1s;
 }
 
 #Info_Sheet{
@@ -101,6 +99,8 @@ h1 {
   font-family: 'Raleway', sans-serif;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
 
 #grad {
   z-index: 0;
