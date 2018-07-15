@@ -61,7 +61,6 @@ function ContattiUp() {
 function ContattiDown() {
   $("#Contatti_Sheet").addClass("moveDown");
   $("#Info_Sheet").fadeIn(1000);
-  $("#grad").removeClass("contattiGrad")
 }
 
 function PortfolioUp() {
@@ -82,10 +81,10 @@ function ClickContatti() {
   {
     a = 2;
     ContattiDown();
+    PortfolioUp();
   }
 }
 
-$("#contatti").on("click", ClickContatti)
 $("#contatti").on("click", ClickContatti)
 
  </script>
