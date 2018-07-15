@@ -86,8 +86,20 @@ function ClickContatti() {
   }
 }
 
+function ClickPortfolio() {
+  if (a == 0){
+    a = 1;
+    PortfolioUp()
+  }else if( a == 1)
+  {
+    a = 2;
+    PortfolioDown();
+    ContattiUp();
+  }
+}
+
 $("#contatti").on("click", ClickContatti)
-$("#portfolio").on("click", ClickContatti)
+$("#portfolio").on("click", ClickPortfolio)
 
  </script>
 </head>
