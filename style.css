@@ -112,12 +112,12 @@ h1 {
   overflow: hidden;
 }
 
-.contattiGrad{
+#grad.contattiGrad{
 background-color:#DAA520;
 transition: 1s;
 }
 
-.portfolioGrad{
+#grad.portfolioGrad{
 background-color:#C71585;
 transition: 1s;
 }
