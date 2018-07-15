@@ -187,10 +187,6 @@ h1 {
       transition: 0.5s;
 }
 
-#msg {
-  margin-left: 100px;
-}
-
 #grad {
   z-index: 0;
   background-color:#6495ED;
