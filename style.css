@@ -150,6 +150,10 @@ h1 {
   transition-delay: 1s;
 }
 
+#disegno_1 {
+  margin-left: -150px;
+}
+
 .portfolioImages {
   width: 25%;
   margin-top: 85px;
@@ -163,10 +167,6 @@ h1 {
   -webkit-filter: grayscale(0%);
       filter: grayscale(0%);
       transition: 0.5s;
-}
-
-#allImages{
-  margin-left: -150px;
 }
 
 #grad {
