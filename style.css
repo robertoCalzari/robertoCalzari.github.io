@@ -96,6 +96,10 @@ h1 {
       transition: 0.5s;
 }
 
+#lista {
+  float: right;
+}
+
 #Contatti_Sheet.moveUp{
   margin-top: -65px;
   transition: 1s;
