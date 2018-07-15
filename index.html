@@ -76,12 +76,16 @@ function PortfolioDown() {
 function ClickContatti() {
   if (a == 0){
     a = 1;
-    ContattiUp()
-  }else if( a == 1)
-  {
-    a = 2;
-    ContattiDown();
-    PortfolioUp();
+    ContattiUp();
+    PortfolioDown()
+  }
+}
+
+function ClickPortfolio() {
+  if (a == 0){
+    a = 1;
+    ContattiUp();
+    PortfolioDown()
   }
 }
 
