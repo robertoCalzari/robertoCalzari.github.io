@@ -146,7 +146,7 @@ h1 {
 }
 
 .portfolioImages {
-  width: 35%;
+  width: 30%;
   margin-top: 85px;
   display: inline-block;
   -webkit-filter: grayscale(100%);
