@@ -83,8 +83,6 @@ h1 {
   display: block;
   width: 130px;
   margin-top: 35px;
-  margin-left: auto;
-  margin-right: auto;
   -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     text-align: center;
@@ -149,6 +147,7 @@ h1 {
 
 .portfolioImages {
   width: 23%;
+  margin-top: 85px;
   display: inline-block;
   vertical-align: middle;
   -webkit-filter: grayscale(100%);
