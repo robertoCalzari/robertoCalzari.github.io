@@ -12,7 +12,7 @@ h1 {
   color: white;
   font-family: 'Dancing Script', cursive;
   position: absolute;
-  left: 35%; top: 145px;
+  left: 35%; top: 125px;
   font-size: 35px;
   text-decoration: none;
   cursor: pointer
@@ -23,7 +23,7 @@ h1 {
   color: white;
   font-family: 'Dancing Script', cursive;
   position: absolute;
-  right: 35%; top: 145px;
+  right: 35%; top: 125px;
   font-size: 35px;
   text-decoration: none;
   cursor: pointer
@@ -62,11 +62,11 @@ h1 {
 
 #Contatti_Sheet{
   z-index: 2;
-  display: block;
-  margin-top: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: none;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 1000px;
+  transform: translateX(-50%);
   padding-top: 85px;
   padding-bottom: 85px;
   padding-left: 200px;
@@ -103,7 +103,7 @@ h1 {
 }
 
 #Contatti_Sheet.moveUp{
-  margin-top: -65px;
+  top: 185px;
   transition: 1s;
   transition-delay: 1s;
 }
