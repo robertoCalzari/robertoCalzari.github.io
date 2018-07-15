@@ -127,6 +127,11 @@ h1 {
   transition-delay: 1s;
 }
 
+.portfolioImages {
+  width: 25%;
+  display: inline-block;
+}
+
 #grad {
   z-index: 0;
   background-color:#6495ED;
