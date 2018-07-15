@@ -134,6 +134,7 @@ h1 {
   vertical-align: center;
   -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
+    cursor: pointer;
 }
 
 .portfolioImages:hover {
