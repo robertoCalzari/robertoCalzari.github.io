@@ -12,7 +12,7 @@ h1 {
   color: white;
   font-family: 'Dancing Script', cursive;
   position: absolute;
-  left: 35%; top: 20%;
+  left: 35%; top: 165px;
   font-size: 35px;
   text-decoration: none;
   cursor: pointer
@@ -23,7 +23,7 @@ h1 {
   color: white;
   font-family: 'Dancing Script', cursive;
   position: absolute;
-  right: 35%; top: 20%;
+  right: 35%; top: 165px;
   font-size: 35px;
   text-decoration: none;
   cursor: pointer
@@ -45,7 +45,7 @@ h1 {
   display: inline-block;
   position: absolute;
   left: 50%;
-  top: 80px;
+  top: 120px;
   transform: translateX(-50%);
   width: 130px;
   border-radius: 50%;
@@ -113,7 +113,7 @@ h1 {
   display: inline-block;
   position: absolute;
   left: 50%;
-  top: 145px;
+  top: 185px;
   transform: translateX(-50%);
   padding-top: 85px;
   padding-bottom: 85px;
