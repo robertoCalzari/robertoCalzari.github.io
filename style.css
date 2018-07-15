@@ -61,7 +61,7 @@ h1 {
 #Contatti_Sheet{
   z-index: 2;
   display: block;
-  margin-top: 25px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: none;
@@ -78,8 +78,8 @@ h1 {
 }
 
 #Contatti_Sheet.moveUp{
-  margin-top: -100px;
-  transition: 1s;
+  margin-top: -65px;
+  transition: 1;
   transition-delay: 1s;
 }
 
@@ -96,7 +96,7 @@ h1 {
   padding-right: 200px;
   width: 600px;
   height: 330px;
-  background-color: black;
+  background-color: white;
   text-align: justify;
   font-family: 'Raleway', sans-serif;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
