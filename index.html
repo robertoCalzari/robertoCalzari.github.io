@@ -55,28 +55,24 @@ function contattiUp() {
   $("#grad").addClass("contattiGrad");
   $("#grad").removeClass("portfolioGrad");
   $("#Contatti_Sheet").addClass("moveUp");
-  $("#Info_Sheet").addClass("moveDown");
   $("#Portfolio_Sheet").removeClass("moveUp");
 }
 
 function portfolioUp() {
   $("#grad").addClass("portfolioGrad");
   $("#Portfolio_Sheet").addClass("moveUp");
-  $("#Info_Sheet").addClass("moveDown");
   $("#Contatti_Sheet").removeClass("moveUp");
 }
 
-function InfoUp() {
-  $("#grad").removeClass("contattiGrad");
-  $("#grad").removeClass("portfolioGrad");
-  $("#Contatti_Sheet").removeClass("moveUp");
-  $("#Portfolio_Sheet").removeClass("moveUp");
-  $("#Info_Sheet").addClass("moveUp")
+function backToInfo() {
+  $("#grad").addClass("contattiGrad");
+  $("#Contatti_Sheet").addClass("moveDown");
+  $("#Portfolio_Sheet").addClass("moveDown");
 }
 
 $("#contatti").on("click", contattiUp);
 $("#profilo").on("click", InfoUp);
-$("#portfolio").on("click", portfolioUp);
+$("#portfolio").on("click", backToInfo);
 
  </script>
 </head>
