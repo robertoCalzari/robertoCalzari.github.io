@@ -78,7 +78,7 @@ h1 {
 }
 
 #Contatti_Sheet.moveUp{
-  margin-top: -500px;
+  margin-top: -330px;
   transition: 1s;
   transition-delay: 1s;
 }
