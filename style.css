@@ -61,7 +61,7 @@ h1 {
 #Contatti_Sheet{
   z-index: 2;
   display: block;
-  margin-top: -65px;
+  margin-top: 65px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: none;
@@ -78,7 +78,7 @@ h1 {
 }
 
 #Contatti_Sheet.moveUp{
-  margin-top: 50px;
+  margin-top: -100px;
   transition: 1s;
   transition-delay: 1s;
 }
