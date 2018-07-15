@@ -46,7 +46,7 @@ h1 {
   width: 130px;
 position: absolute;
 left: 50%;
-top: 35px;
+top: 65px;
 transform: translateX(-50%);
   border-radius: 50%;
   -webkit-filter: grayscale(100%);
