@@ -11,7 +11,7 @@
 
 <h1>Benvenuti!</h1>
 
-<a href="."><img id="profilo" src="Profile_Name.jpg" alt="Name Profile"></img></a>
+<a href="."><img id="profilo" src="Profile_Name.jpg" alt="Name Profile"></img>
 
  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700" rel="stylesheet"></link>
 
@@ -57,7 +57,16 @@ function contattiUp() {
   $("#Info_Sheet").addClass("moveDown")
 }
 
+function InfoUp() {
+  $("#grad").removeClass("contattiGrad");
+  $("#grad").removeClass("portfolioGrad");
+  $("#Contatti_Sheet").addClass("moveDown");
+  $("#Portfolio_Sheet").addClass("moveDown");
+  $("#Info_Sheet").addClass("moveUp")
+}
+
 $("#contatti").on("click", contattiUp);
+$("#profilo").on("click", InfoUp);
 
  </script>
 </head>
