@@ -12,7 +12,7 @@ h1 {
   color: white;
   font-family: 'Dancing Script', cursive;
   position: absolute;
-  left: 35%; top: 125px;
+  left: 35%; top: 135px;
   font-size: 35px;
   text-decoration: none;
   cursor: pointer
@@ -23,7 +23,7 @@ h1 {
   color: white;
   font-family: 'Dancing Script', cursive;
   position: absolute;
-  right: 35%; top: 125px;
+  right: 35%; top: 135px;
   font-size: 35px;
   text-decoration: none;
   cursor: pointer
@@ -129,11 +129,11 @@ h1 {
 
 #Portfolio_Sheet{
   z-index: 3;
-  display: block;
-  margin-top: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: none;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 1000px;
+  transform: translateX(-50%);
   padding-top: 85px;
   padding-bottom: 85px;
   padding-left: 200px;
