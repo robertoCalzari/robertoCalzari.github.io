@@ -102,7 +102,30 @@ h1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#Portfolio_Sheet{
+  z-index: 2;
+  display: block;
+  margin-top: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: none;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  padding-left: 200px;
+  padding-right: 200px;
+  width: 600px;
+  height: 330px;
+  background-color: white;
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
+#Portfolio_Sheet.moveUp{
+  margin-top: -65px;
+  transition: 1s;
+  transition-delay: 1s;
+}
 
 #grad {
   z-index: 0;
