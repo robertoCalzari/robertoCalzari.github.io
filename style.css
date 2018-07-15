@@ -77,7 +77,7 @@ h1 {
 }
 
 #Contatti_Sheet.moveRight{
-  margin-left: auto;
+  margin-left: 300;
   transition: 1s;
 }
 
