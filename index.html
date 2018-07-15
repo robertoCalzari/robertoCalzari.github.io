@@ -50,44 +50,14 @@
  <script>
 
 var a = 0;
-var b = 0;
 
-function ContattiUp() {
+function contattiUp() {
   $("#grad").addClass("contattiGrad");
   $("#Contatti_Sheet").addClass("moveUp");
-  $("#Info_Sheet").fadeOut(1000);
+  $("#Info_Sheet").addClass("moveDown")
 }
 
-function ContattiDown() {
-  $("#Contatti_Sheet").addClass("moveDown");
-  $("#Info_Sheet").fadeOut(1000);
-  $("#grad").addClass("portfolioGrad")
-}
-
-function PortfolioUp() {
-  $("#grad").addClass("portfolioGrad");
-  $("#Portfolio_Sheet").addClass("moveUp");
-  $("#Info_Sheet").fadeOut(1000);
-}
-
-function PortfolioDown() {
-  $("#Contatti_Sheet").addClass("moveDown");
-}
-
-function ClickContatti() {
-  if (a == 0){
-    a = 1;
-    ContattiUp()
-  }else if( a == 1)
-  {
-    a = 2;
-    ContattiDown();
-    PortfolioUp();
-  }
-}
-
-$("#contatti").on("click", ClickContatti)
-$("#portfolio").on("click", ClickPortfolio)
+$("#contatti").on("click", contattiUp);
 
  </script>
 </head>
