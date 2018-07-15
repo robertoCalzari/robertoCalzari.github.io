@@ -60,8 +60,8 @@ h1 {
 #Contatti_Sheet{
   z-index: 2;
   display: block;
-  margin-left: -1000px;
-  margin-top: -500px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: none;
   padding-top: 85px;
   padding-bottom: 85px;
