@@ -72,16 +72,7 @@ function InfoUp() {
   $("#Info_Sheet").addClass("moveUp")
 }
 
-function infoMove() {
-  if (a == 0) {
-    a=1;
-    InfoUp();
-  } else if (a == 1) {
-    a=0;
-  }
-}
-
-$("#contatti").on("click", infoMove);
+$("#contatti").on("click", contattiUp);
 $("#profilo").on("click", InfoUp);
 $("#portfolio").on("click", portfolioUp);
 
