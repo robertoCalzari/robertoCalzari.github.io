@@ -60,7 +60,7 @@ function ContattiUp() {
 
 function ContattiDown() {
   $("#Contatti_Sheet").addClass("moveDown");
-  $("#Info_Sheet").fadeIn(1000);
+  $("#Info_Sheet").fadeOut(1000);
 }
 
 function PortfolioUp() {
@@ -76,8 +76,7 @@ function PortfolioDown() {
 function ClickContatti() {
   if (a == 0){
     a = 1;
-    ContattiUp();
-    PortfolioDown()
+    ContattiUp()
   }else if( a == 1)
   {
     a = 2;
