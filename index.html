@@ -51,22 +51,36 @@
 
 var c = 0;
 
-function coloreContatti() {
+function ContattiUp() {
   $("#grad").addClass("contattiGrad");
   $("#Contatti_Sheet").addClass("moveUp");
   $("#Info_Sheet").fadeOut(1000);
+}
+
+function ContattiDown() {
   $("#Portfolio_Sheet").addClass("moveDown");
 }
 
-function colorePortfolio() {
+function PortfolioUp() {
   $("#grad").addClass("portfolioGrad");
   $("#Portfolio_Sheet").addClass("moveUp");
   $("#Info_Sheet").fadeOut(1000);
+}
+
+function PortfolioDown() {
   $("#Contatti_Sheet").addClass("moveDown");
 }
 
-$("#contatti").on("click", coloreContatti)
-$("#portfolio").on("click", colorePortfolio)
+function ClickContatti() {
+  if (c == 0){
+    c = 1;
+    ContattiUp()
+  }else if( c == 1)
+  {
+    c = 2;
+    ContattiDown()
+  }
+}
 
  </script>
 </head>
