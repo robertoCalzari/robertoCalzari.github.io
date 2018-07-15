@@ -130,6 +130,7 @@ h1 {
 .portfolioImages {
   width: 23%;
   display: inline-block;
+  vertical-align: center;
 }
 
 #grad {
