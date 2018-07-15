@@ -43,11 +43,11 @@ h1 {
 #profilo {
   z-index: 4;
   display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 80px;
+  transform: translateX(-50%);
   width: 130px;
-position: absolute;
-left: 50%;
-top: 65px;
-transform: translateX(-50%);
   border-radius: 50%;
   -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -110,11 +110,11 @@ transform: translateX(-50%);
 
 #Info_Sheet{
   z-index: 1;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -65px;
-  margin-bottom: none;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 145px;
+  transform: translateX(-50%);
   padding-top: 85px;
   padding-bottom: 85px;
   padding-left: 200px;
