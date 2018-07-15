@@ -12,7 +12,7 @@ h1 {
   color: white;
   font-family: 'Dancing Script', cursive;
   position: absolute;
-  left: 35%; top: 165px;
+  left: 35%; top: 145px;
   font-size: 35px;
   text-decoration: none;
   cursor: pointer
@@ -23,7 +23,7 @@ h1 {
   color: white;
   font-family: 'Dancing Script', cursive;
   position: absolute;
-  right: 35%; top: 165px;
+  right: 35%; top: 145px;
   font-size: 35px;
   text-decoration: none;
   cursor: pointer
