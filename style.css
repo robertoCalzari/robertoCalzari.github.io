@@ -33,10 +33,10 @@ h1 {
   color: #FFD700;
   text-decoration: none;
 }
-/* #C71585*/
 #portfolio:hover{
   color: #BA55D3;
   text-decoration: none;
+  transition: 0.3;
 }
 
 #profilo {
