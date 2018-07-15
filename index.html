@@ -57,14 +57,13 @@ function contattiUp() {
   $("#grad").addClass("contattiGrad");
   $("#grad").removeClass("portfolioGrad");
   $("#Contatti_Sheet").addClass("moveUp");
-  $("#Info_Sheet").addClass("moveDown");
+  $("#Info_Sheet").removeClass("moveUp");
   $("#Portfolio_Sheet").removeClass("moveUp");
 }
 
 function portfolioUp() {
   $("#grad").addClass("portfolioGrad");
   $("#Portfolio_Sheet").addClass("moveUp");
-  $("#Info_Sheet").addClass("moveDown");
   $("#Contatti_Sheet").removeClass("moveUp");
 }
 
@@ -73,7 +72,7 @@ function InfoUp() {
   $("#grad").removeClass("portfolioGrad");
   $("#Contatti_Sheet").removeClass("moveUp");
   $("#Portfolio_Sheet").removeClass("moveUp");
-  $("#Info_Sheet").addClass("moveUp")
+  $("#Info_Sheet").removeClass("moveUp")
 }
 
 $("#contatti").on("click", contattiUp);
