@@ -95,7 +95,6 @@ h1 {
       transition: 0.5s;
 }
 
-
 #Contatti_Sheet.moveUp{
   margin-top: -65px;
   transition: 1s;
@@ -160,6 +159,10 @@ h1 {
   -webkit-filter: grayscale(0%);
       filter: grayscale(0%);
       transition: 0.5s;
+}
+
+#allImages{
+  margin-left: -100px;
 }
 
 #grad {
