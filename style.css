@@ -172,7 +172,7 @@ h1 {
 }
 
 .portfolioImages {
-  width: 20%;
+  width: 30%;
   display: inline-block;
   -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
