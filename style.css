@@ -131,7 +131,7 @@ h1 {
 .portfolioImages {
   width: 23%;
   display: inline-block;
-  vertical-align: center;
+  vertical-align: middle;
   -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     cursor: pointer;
