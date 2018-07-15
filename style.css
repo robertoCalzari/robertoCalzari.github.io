@@ -44,9 +44,10 @@ h1 {
   z-index: 4;
   display: inline-block;
   width: 130px;
-  margin-top: 35px;
-  margin-left: auto;
-  margin-right: auto;
+position: absolute;
+left: 50%;
+top: 35px;
+transform: translateX(-50%);
   border-radius: 50%;
   -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
