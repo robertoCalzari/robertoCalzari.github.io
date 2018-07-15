@@ -56,6 +56,7 @@ h1 {
 #profilo:hover {
   -webkit-filter: grayscale(0%);
       filter: grayscale(0%);
+      transition: 0.5s;
 }
 
 #Contatti_Sheet{
@@ -131,6 +132,14 @@ h1 {
   width: 23%;
   display: inline-block;
   vertical-align: center;
+  -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.portfolioImages:hover {
+  -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
+      transition: 0.5s;
 }
 
 #grad {
