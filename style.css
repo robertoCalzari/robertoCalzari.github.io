@@ -108,6 +108,12 @@ h1 {
   transition-delay: 1s;
 }
 
+#Contatti_Sheet.moveDown{
+  top: 1000px;
+  transition: 1s;
+  transition-delay: 1s;
+}
+
 #Info_Sheet{
   z-index: 1;
   display: inline-block;
@@ -148,6 +154,12 @@ h1 {
 
 #Portfolio_Sheet.moveUp{
   top: 185px;
+  transition: 1s;
+  transition-delay: 1s;
+}
+
+#Portfolio_Sheet.moveDown{
+  top: 1000px;
   transition: 1s;
   transition-delay: 1s;
 }

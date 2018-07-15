@@ -55,12 +55,14 @@ function coloreContatti() {
   $("#grad").addClass("contattiGrad");
   $("#Contatti_Sheet").addClass("moveUp");
   $("#Info_Sheet").fadeOut(1000);
+  $("#Portfolio_Sheet").addClass("moveDown");
 }
 
 function colorePortfolio() {
   $("#grad").addClass("portfolioGrad");
   $("#Portfolio_Sheet").addClass("moveUp");
   $("#Info_Sheet").fadeOut(1000);
+  $("#Contatti_Sheet").addClass("moveDown");
 }
 
 $("#contatti").on("click", coloreContatti)
