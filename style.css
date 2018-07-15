@@ -151,7 +151,7 @@ h1 {
 }
 
 .portfolioImages {
-  width: 30%;
+  width: 25%;
   margin-top: 85px;
   display: inline-block;
   -webkit-filter: grayscale(100%);
@@ -176,7 +176,7 @@ h1 {
   width: 100%;
   cursor:url('http://s13.postimg.org/nziz57hab/cursor.png'), auto;
   margin: 0px;
-  overflow: hidden;
+  overflow: ;
 }
 
 #grad.contattiGrad{
