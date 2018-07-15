@@ -198,7 +198,7 @@ h1 {
   width: 100%;
   cursor:url('http://s13.postimg.org/nziz57hab/cursor.png'), auto;
   margin: 0px;
-  overflow: h;
+  overflow: hidden;
 }
 
 #grad.contattiGrad{
