@@ -151,13 +151,11 @@ h1 {
   transition-delay: 1s;
 }
 
-#disegno_1 {
-  margin-left: -150px;
-}
-
 .portfolioImages {
-  width: 30%;
-  margin-top: 85px;
+  width: 35%;
+  margin-top: 65px;
+  margin-left: auto;
+  margin-right: auto;
   display: inline-block;
   -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
